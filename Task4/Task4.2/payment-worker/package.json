@@ -1,0 +1,13 @@
+{
+  "name": "payment-worker",
+  "version": "1.0.0",
+  "description": "OrchestrPay: Zeebe job workers for the payment saga",
+  "main": "src/index.js",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@camunda8/sdk": "8.5.9"
+  }
+}
